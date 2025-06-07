@@ -85,7 +85,7 @@ def get_vader_sentiment(text):
 
 ### 🔷 TextBlob vs 🔶 VADER
 
-![Sentiment Comparison]("C:\Users\hyash\Downloads\Comparison of Sentiment Analysis Models.png")
+![Sentiment Comparison](output_visuals/Comparison%20of%20Sentiment%20Analysis%20Models.png)
 
 ---
 
@@ -93,7 +93,7 @@ def get_vader_sentiment(text):
 
 ### ✅ Positive Reviews and Negative Reviews
 
-![Positive Word Cloud](path/to/your/wordcloud_positive.png)
+![Positive and Negative Reviews Word Cloud](wordclouds/Wordclouds%20of%20Positive%20and%20Negative%20Reviews.png)
 
 ---
 
@@ -104,7 +104,7 @@ vectorizer = CountVectorizer(stop_words='english')
 word_counts = vectorizer.fit_transform(df['Cleaned Review'])
 ```
 
-![Barplot](path/to/your/common_words_barplot.png)
+![Top 20 Most Common Words in Reviews](output_visuals/Top%2020%20Most%20Common%20Words%20in%20Reviews.png)
 
 ---
 
@@ -122,6 +122,15 @@ lda_model = LatentDirichletAllocation(n_components=7)
 > Each topic is visualized using a horizontal bar chart and word cloud.
 
 ---
+
+## ☁️ Word Cloud for LDA Topics
+
+### ✅ Total 7 Topics
+
+![Wordcloud for LDA Topics](wordclouds/Wordcloud%20for%20LDA%20Topics.png)
+
+---
+
 
 
 ## 📁 Project Structure
