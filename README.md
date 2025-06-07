@@ -91,7 +91,7 @@ def get_vader_sentiment(text):
 
 ## ☁️ Word Clouds
 
-### ✅ Positive Reviews
+### ✅ Positive Reviews and Negative Reviews
 
 ![Positive Word Cloud](path/to/your/wordcloud_positive.png)
 
@@ -123,17 +123,6 @@ lda_model = LatentDirichletAllocation(n_components=7)
 
 ---
 
-## 🎨 SVG Animation (Just for Fun)
-
-```svg
-<svg width="100%" height="100" viewBox="0 0 1000 100" xmlns="http://www.w3.org/2000/svg">
-  <text x="0" y="50" font-size="50" fill="#3f51b5">
-    Web Scraping + Sentiment Magic! 🚀
-  </text>
-</svg>
-```
-
----
 
 ## 📁 Project Structure
 
@@ -159,7 +148,7 @@ lda_model = LatentDirichletAllocation(n_components=7)
 
 ## 👨‍💻 Author
 
-**Your Name** — [Yash Handa](https://github.com/Handa1810)
+[Yash Handa](https://github.com/Handa1810)
 
 > If you liked this project, feel free to ⭐ the repo!
 
